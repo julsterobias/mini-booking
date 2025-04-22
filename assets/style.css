@@ -1,0 +1,80 @@
+.minibookcalc-container--main {
+	padding: 25px;
+	border: 1px solid rgb(0, 0, 0, 0.3);
+	background-color: white;
+	border-radius: 5px;
+}
+
+.minibookcalc-container--main .minibookcalc--form div {
+	padding-bottom: 10px;
+}
+
+.minibookcalc-container--main .minibookcalc--form div:last-child {
+	padding-bottom: 0;
+}
+
+.minibookcalc-container--main .minibookcalc--form div input,
+.minibookcalc-container--main .minibookcalc--form div select {
+	display: block;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid rgb(0, 0, 0, 0.5);
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.minibookcalc-container--main .minibookcalc--form div input.invalid,
+.minibookcalc-container--main .minibookcalc--form div select.invalid {
+	border-color: red;
+}
+
+.minibookcalc-container--main .minibookcalc--form div label {
+	font-size: 13px;
+	color: rgb(0, 0, 0, 0.7);
+}
+
+.minibookcalc-container--main .minibookcalc--form div button.mini-primary-button,
+.minibookcalc-container--main .minibookcalc--form div button.mini-secondary-button{
+	background-color: black;
+	border: 0;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.minibookcalc-container--main .minibookcalc--form div button.mini-secondary-button {
+	background-color: rgba(15, 85, 184, 1);
+}
+
+.minibookcalc-container--main .minibookcalc--form div #mini-total-label {
+	display: none;
+}
+
+.minibookcalc-container--main .minibookcalc--form div #mini-total-label i {
+	font-size: 13px;
+	color: red;
+	font-style: normal;
+	text-decoration: underline;
+	display: block;
+	width: auto;
+	padding: 5px 0;
+	cursor: pointer;
+}
+
+.minibookcalc-container--main .minibookcalc--form div #mini-total-label span {
+	font-weight: bold;
+}
+
+.minibookcalc-container--main .minibookcalc--form div #mini-total-calc {
+	display: none;
+}
+
+.minibookcalc-container--main .minibookcalc--form div #send-calc-button {
+	display: none;
+}
+
+.minibookcalc-container--main .minibookcalc--form div #send-calc-button:disabled {
+	opacity: 0.6;
+	cursor: progress
+}
