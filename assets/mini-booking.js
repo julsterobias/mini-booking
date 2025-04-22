@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', function () {
 		show_calc_info.addEventListener('click', () =>  {
 			document.getElementById('mini-total-calc').style.display = 'block';
 		});
+	});
 
-		const send_mini_booking_calc = document.getElementById('send-calc-button');
-		send_mini_booking_calc.addEventListener('click', () => {
-			send_booking_to_admin(send_mini_booking_calc);
-		});
+	const send_mini_booking_calc = document.getElementById('send-calc-button');
+	send_mini_booking_calc.addEventListener('click', () => {
+		send_booking_to_admin(send_mini_booking_calc);
 	});
 
 	const do_calculations = () => {
