@@ -8,7 +8,7 @@ This is a test project so please ignore.
 ##  Features
 - Provides simple form for simple booking
 - Calculate the distance to get the distance amount
-- Calculate the total base from Distance * distance fee + Number of rooms * Room rates
+- Calculate the total base from base fee + Distance * distance fee + Number of rooms * Room rates
 - Sends data to database
 - Sends data to admin email
 
